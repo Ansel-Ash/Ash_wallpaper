@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#hero {
+  background-image: url('./Hero_bg.jpg');
+}
+
+.about {
+  background-image: url('./pony-2.jpg');
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Windows background wallpaper */
+.card {
+  background: transparent;
+  backdrop-filter:blur(50px);
+}
+
+/* wallpapers Gallore */
+.img-fluids {
+  height: 400px;
+  /* width: auto; */
+}
+
+
+/* Wallpapers Gallore */
+.cards {
+  position: relative;
+}
+.labelx {
+  width: 100%;
+position: absolute;
+bottom: 0;
+left: 0;
+display: flex;
+justify-content: space-between;
+}
+
+.f {
+  padding: 4px 20px;
+  border-radius: 8px;
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+
+.plus {
+  padding: 10px;
+  border-radius: 30px;
+}
